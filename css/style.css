@@ -1,0 +1,147 @@
+@media (min-width: 768px) and (max-width: 1024px){
+    body {
+        background-color: blue;
+    }
+}
+
+header, nav{
+    font-family:"Bebas Neue";
+    background-image: url("../images/womens_lit_banner.png");
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+}
+
+nav ul li{
+    display: inline-block;
+    flex-direction: row;
+    padding: 2%;
+    margin: 6%;
+    text-align: center;
+    background-color: white;
+    color:black;
+    font-size: large;
+    /* background-image: url("womens_lit_banner.png"); */
+}
+
+.skip-to-content-link {
+    position: absolute;
+    transform: translateY(-100%);
+  }
+
+  .skip-to-content-link {
+    padding: 8px;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+  }
+  .skip-to-content-link:focus {
+    transform: translateY(0%);
+  }
+
+.main-image{
+    transition: transform .2s; /* Animation */
+    width: 100%;
+    margin: 0 auto;
+    }
+
+ .main-image:hover {
+    animation-name: zoom;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .5s;
+    transform: scale(1.5);
+    }
+
+body{
+    line-height: 2;
+    background-color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2%;
+    padding: 3%;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+ h2{
+     font-size: 30px;
+     text-decoration: underline;
+ }
+
+ h3{
+     font-size: 20px;
+ }
+
+ p + p {
+    text-indent: 10px;
+ }
+
+p{
+
+    margin-top: 20px;
+}
+
+.lit-grid{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(4, 4fr);
+    margin: 5%;
+    border-radius: 10px;
+    row-gap: 10px;
+    column-gap: 55px;
+    background-color: darkcyan;
+ }
+ .lit-grid div{
+     /* Set border properties, padding, and background color */
+     background-color: whitesmoke;
+     padding: 15px;
+ 
+ }
+
+ .lit-grid img{
+     /* Set width, margin, and display */
+     margin: 18px;
+     width: 90%;
+ }
+
+ .history-grid{
+    display: grid;
+    position: relative;
+    grid-template-columns: (3, 20% 10% 70%);
+    margin: 5%;
+    border-radius: 10px;
+    row-gap: 10px;
+    column-gap: 55px;
+    background-color: darkcyan;
+ }
+
+ .history-grid h2{
+    font: white;
+ }
+
+ .history-grid img{
+    width: 10%;
+    height: auto;
+ }
+
+ .history-grid div{
+     /* Set border properties, padding, and background color */
+     background-color: whitesmoke;
+     padding: 15px;
+ 
+ }
+
+ .history-grid img{
+    /* Set width, margin, and display */
+    margin: 18px;
+    width: 90%;
+}
+
+dl{
+    background-color: darkcyan;
+    padding: 2%;
+    color:white;
+}
